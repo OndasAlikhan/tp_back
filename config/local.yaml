@@ -4,7 +4,7 @@ http:
   timeout: 4s
   idle_timeout: 60s
 postgres:
-  url: "postgres://local:password@localhost:5432/local?sslmode=disable"
+  url: "postgres://postgres:mysecretpassword@localhost:5432/tp_db?sslmode=disable"
   migrations_path: "./migrations"
 jwt:
   secret_key: "local"

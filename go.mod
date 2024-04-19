@@ -1,6 +1,6 @@
 module tp_back
 
-go 1.21.6
+go 1.22.2
 
 require (
 	github.com/form3tech-oss/jwt-go v3.2.5+incompatible
